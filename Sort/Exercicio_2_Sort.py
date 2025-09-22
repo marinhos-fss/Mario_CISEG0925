@@ -18,15 +18,20 @@ n = len(list_of_words)
 
 #Outer loop: controls the passes through the list
 for i in range(n):
-    #inner : compares and swapps adjacent elements
+    #Inner loop: compares and swaps adjacent elements
     for j in range (0, n - i -1):
-        #Call the costum function to dedicate if a swap is neeeded
+        #Call the custom function to decide if a swap is needed
         if compare_words(list_of_words[j], list_of_words[j+1]):
             #Swap the elements if they are in the wrong order
             list_of_words[j], list_of_words[j+1] = list_of_words[j+1], list_of_words[j]
 
 #Result
 print(list_of_words)
+
+
+
+
+
 
 '''
 list_ofwords = []: This line simply the list of words to be sorted

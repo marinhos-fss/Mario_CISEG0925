@@ -30,6 +30,12 @@ for i in range(n):  # The outer loop runs n tomes to ensure every item gets a ch
 # Result
 print(list_fruits)
 
+
+
+
+
+
+
 '''
 list_fruits = []: This line simply initializes the list of fruits to be sorted. 
 
